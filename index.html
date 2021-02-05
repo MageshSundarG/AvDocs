@@ -31,12 +31,11 @@
 </head>
 
 <body>
-   
-  <include src="href="bootstrap-4.0.0\dist\css\bootstrap.css"></include>
+
   <!-- Navbar with logo and user -->
   <section>
 
-    <nav class="navbar navbar-expand-xl navbar-light navbar-top">
+    <nav class="navbar navbar-expand-xl navbar-light navbar-top position-static">
       <span class="navbar-brand mb-0 h1" style="color: white;">MRO <span class="edm-bg">SCM</span></span>
       <i class="fas fa-ellipsis-v"></i>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -81,7 +80,7 @@
 
   <!-- Dropdowns -->
   <section class="">
-    <ul class="nav dropdown-nav">
+    <ul class="nav dropdown-nav position-static">
 
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Parts Manager</a>
@@ -105,7 +104,7 @@
 
   <!-- Navigation tabs -->
   <section class="">
-    <ul class="nav nav-tabs nav-tabs-header" id="inventoryOperationsTab" role="tablist">
+    <ul class="nav nav-tabs nav-tabs-header position-static" id="inventoryOperationsTab" role="tablist">
       <li class="nav-item">
         <a class="nav-link active" id="home-tab" data-toggle="tab" href="#manage-parts" role="tab" aria-controls="home" aria-selected="true">Manage Parts</a>
       </li>
@@ -120,7 +119,7 @@
 
   <!-- Navigation tabs content -->
   <section>
-    <div class="tab-content" id="inventoryOperationsTabContent">
+    <div class="tab-content position-static" id="inventoryOperationsTabContent">
       <div class="tab-pane fade show active" id="manage-parts" role="tabpanel" aria-labelledby="home-tab">
       </div>
       <div class="tab-pane fade" id="profile" role="view-parts" aria-labelledby="profile-tab">
@@ -130,7 +129,7 @@
 
   <!-- Primary Data Tracker -->
   <section class="">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light primary-data-tracker bg-color">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light primary-data-tracker bg-color position-static">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
